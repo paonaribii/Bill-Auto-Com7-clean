@@ -1,0 +1,17 @@
+.env
+credentials.json
+.venv/
+.venv-1/
+__pycache__/
+chrome_profile_copy/
+downloads/
+logs/
+scratch_*
+*.log
+process_flow/*.txt
+*.xlsx
+*.csv
+*.png
+.claude/
+.vscode/
+_archive_unused/
