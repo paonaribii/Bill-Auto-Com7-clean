@@ -1,5 +1,5 @@
 """อ่านชีท "Match" (ไฟล์ Bill Auto, คำนวณด้วย cal.py ไปแล้ว) มาสร้างชีท "ถูกทั้งหมด รอ Confirm"
-(ไฟล์ Bill Auto เช่นกัน, gid=857579518) ด้วย cal.build_confirm_from_match()
+(ไฟล์ Bill Auto เช่นกัน) ด้วย cal.build_confirm_from_match()
 
 ⚠️ คนละแท็บกับ "Match Approve"/"Match Rework" โดยสิ้นเชิง — ไม่ได้กรองด้วย Application Status
 แต่กรองด้วย Match!AY=="ถูกต้องทั้งหมด" AND Match!"Application Status"=="ลูกหนี้ปกติ" (ยืนยันจาก

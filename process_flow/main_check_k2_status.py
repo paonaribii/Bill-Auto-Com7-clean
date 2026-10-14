@@ -2,7 +2,7 @@
 "Check Bill Approve" (ไฟล์ "Bill Auto Cal") แล้วเช็คสถานะทีละตัวผ่าน K2 > Management & Report
 (AEE) > รายงานบิลขายเทียบสัญญาเช่าซื้อ จากนั้นเขียนผลกลับเข้าคอลัมน์ ผลการตรวจสอบ (D)
 
-โครงสร้างชีท Check Bill Approve (ไฟล์ Bill Auto Cal, tab "Check Bill Approve" gid=444408138):
+โครงสร้างชีท Check Bill Approve (ไฟล์ Bill Auto Cal, tab "Check Bill Approve"):
   header อยู่แถว 6, ข้อมูลเริ่มแถว 7
   B = PO NUMBER, C = APPLICATION NUMBER, D = ผลการตรวจสอบ, E = PHY-ID, F = Note
   (คอลัมน์ G เป็นต้นไปเป็นข้อมูล "เมื่อวาน" (ห้ามลบ) ไม่แตะเด็ดขาด)

@@ -684,7 +684,7 @@ def build_confirm_from_match(match_df: pd.DataFrame) -> dict[str, pd.DataFrame]:
     """สร้างข้อมูลเทียบเท่าชีท "ถูกทั้งหมด รอ Confirm" (ไฟล์ Bill Auto) จากชีท "Match"
 
     ยืนยันจากสูตรจริง (ไฟล์ Bill Auto,
-    แท็บ "ถูกทั้งหมด รอ Confirm", gid=1447034513) — เป็นคนละแท็บกับ "Match Approve"/"Match
+    แท็บ "ถูกทั้งหมด รอ Confirm") — เป็นคนละแท็บกับ "Match Approve"/"Match
     Rework" (ที่กรองด้วย Application Status==status) โดยสิ้นเชิง มี 2 บล็อกอิสระ ยาวไม่เท่ากัน:
       1. บล็อกหลัก (A:BL, 64 คอลัมน์) — กรอง Match!AY=="ถูกต้องทั้งหมด" AND
          Match!AE6:AE(Application Status)=="ลูกหนี้ปกติ" — แถวเดียวกันตลอดทั้งบล็อก (A:D<-A:D,
